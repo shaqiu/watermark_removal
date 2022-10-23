@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>图片去水印</title>
+    <link href="/static/styles/index.css" rel="stylesheet">
+</head>
+<body>
+<h1>图片去水印</h1>
+<form action="/pic/upload/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="img" id="img" accept="image/*"><br><br>
+    <button type="submit">提交图片</button>
+</form>
+<img src="/static/media/result/result.{{ type }}" alt="刷新页面，获取图片去水印结果">
+<p>（如果图片显示失败或者显示上一次去水印的结果图片，请尝试在去水印处理完成后刷新页面）</p>
+</body>
+</html>

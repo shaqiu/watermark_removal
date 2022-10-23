@@ -1,0 +1,28 @@
+html {
+    background-color: #CBDDEE;
+}
+
+body {
+    width: 800px;
+    margin: auto auto;
+    background-color: #D8EBC7;
+    padding: 0 40px 40px 40px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #649C45;
+    text-shadow: 3px 3px 1px pink;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
